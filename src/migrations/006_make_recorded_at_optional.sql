@@ -1,0 +1,2 @@
+ALTER TABLE sensor_readings
+  ALTER COLUMN recorded_at SET DEFAULT CURRENT_TIMESTAMP;

@@ -1,0 +1,1 @@
+CREATE INDEX idx_recorded_at ON sensor_readings(recorded_at);

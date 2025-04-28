@@ -1,0 +1,8 @@
+asyncpg
+fastapi[standard]
+uvicorn
+pydantic
+pyjwt[crypto]
+python-dotenv
+paho-mqtt==1.6.1
+aiomqtt
