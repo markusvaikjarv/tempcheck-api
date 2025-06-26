@@ -14,7 +14,7 @@ A FastAPI-based REST API for managing IoT sensor readings and analytics with MQT
 graph TD
     A(((Temperature Sensor))) -- "MQTT" --> B{{Broker}};
     B -- "MQTT" --> C[TempCheck API];
-    C <--> D[(TimescaleDB OLAP Database)];
+    C --> D[(TimescaleDB OLAP Database)];
     E[API Client] --> C;
     C -- "OAuth2" --> G[Keycloak Auth Server];
     E -- "OAuth2" --> G;
